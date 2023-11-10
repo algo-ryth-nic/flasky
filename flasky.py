@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-
+assert 0
 dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
 if os.path.exists(dotenv_path):
     load_dotenv(dotenv_path)
@@ -80,5 +80,3 @@ def deploy():
 
     # ensure all users are following themselves
     User.add_self_follows()
-
-assert 0
