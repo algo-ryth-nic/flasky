@@ -1,5 +1,6 @@
 name: Github Action test
-
+on: 
+  workflow_dispatch:
 
 jobs: 
   first-action:

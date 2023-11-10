@@ -1,4 +1,6 @@
 name: Installing Python 
+on:  
+  workflow_dispatch:
 
 jobs:
   check-python-version:
